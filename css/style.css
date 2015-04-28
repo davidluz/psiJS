@@ -1,0 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
+
+#ri-container{
+	max-width: 100%;
+	font-family: 'PT Sans', sans-serif; 
+	font-size: 14px;
+}
+
+#ri-container img{
+width: 100%;
+height: auto;
+}
+
+
+
