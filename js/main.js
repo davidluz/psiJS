@@ -16,7 +16,7 @@ $("#question-container").append('<button id="ri-send-button">Enviar</button>');
 $(document).ready(function() {
 var questao1 = new Question();	
 console.log("Running!");
-riProgresseBar('3');
+riProgresseBar('1');
 
 $("#ri-send-button").click(function() {
 var value = $( "#ri-resposta" ).val();
@@ -28,7 +28,7 @@ else{
 alert("você errou");
 }
  
- 
+ riProgresseBar('2');
 });
 
 
