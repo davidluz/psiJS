@@ -6,12 +6,19 @@
 // Receive objects with number of responses 
 // Return
 // Type - Render
-function GraphDefault(Responses,divName){
+function PsiGraphDefault(Responses,divName){
 	$(divName).append
 	return 
 }
 
-function  GraphCustom (Response, divName){
+
+//Receive objects, responses and custom atributes as Array
+function  PsiGraphCustom (Response, divName){
 	$(divName).append
 	return
+}
+
+function PsiDebug(){
+	
+	
 }
